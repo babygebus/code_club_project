@@ -1,0 +1,12 @@
+{
+  "name": "code_club_project",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.1.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  }
+}
