@@ -1,3 +1,5 @@
-name = "code_club_project"
-main = "src/index.js"
-compatibility_date = "2022-09-13"
+export default {
+  async fetch(request) {
+    return new Response("Hello World!");
+  },
+};
